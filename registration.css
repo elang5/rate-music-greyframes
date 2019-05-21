@@ -59,3 +59,9 @@ nav {
   height: 30%;
   width: 100%
 }
+
+.signup {
+  margin-bottom: 1em;
+  border: 1px solid slategray;
+  padding: 10px;
+}
