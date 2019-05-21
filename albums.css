@@ -9,7 +9,7 @@ a {
   color: black;
 }
 
-a:hover {
+nav > a:hover {
   background: slategrey;
 }
 
@@ -31,18 +31,28 @@ nav {
   width: 100%
 }
 
-.grid {
+.filter-options {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
+  padding-top: 8px;
+  padding-right: 8px;
 }
 
-.box {
-  background: #444;
-  flex: 0 0 32%;
-  height: 8em;
-  margin-top: 10px;
-  border: 1px solid #555;
-  color: #AAA;
-  border-radius: .25em;
+.filter-options > input {
+  height: 25px;
+  margin-right: 5px;
+  padding-left: 5px;
+}
+
+.filter-options > button {
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(254px, auto);
+  grid-gap: 1em;
+  text-align: center;
+  margin-top: 2em;
 }

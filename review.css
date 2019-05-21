@@ -9,10 +9,6 @@
     color: black;
   }
   
-  .charts > li:hover {
-    background: slategrey;
-  }
-  
   ul {
     display: flex;
     flex-flow: row nowrap;
@@ -35,32 +31,10 @@
     width: 100%
   }
 
-  .filter-options {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 8px;
-    padding-left: 8px;
+  .tldr {
+    font-size: 18px;
   }
 
-  .post {
-      margin-right: 8px;
+  .review {
+    margin: 0 1em;
   }
-  
-  .dropdown { 
-    height: 40px;
-    font-size: 14px;
-  }
-  
-  ol {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-  }
-  
-  .charts > li {
-    border: 2px solid #444;
-    padding: 10px 15px;
-    margin: 10px 0;
-    width: 75%;
-  }
-
